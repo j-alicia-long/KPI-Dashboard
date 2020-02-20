@@ -7,6 +7,7 @@ Clone the project and run the docker container:
 ```
 git clone [url]
 cd KPI-Dashboard
+chmod +x entrypoint.sh     # if you get access denied
 docker-compose up
 ```
 The Django server runs from the `web` service while PostgreSQL runs from `db`.
